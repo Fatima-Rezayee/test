@@ -1,0 +1,162 @@
+ .cover{
+    background-color: #efefef;
+    height: auto; 
+    display: flex;
+    flex-direction: row;
+  }
+  .invest{
+    background-color: #efefef;
+    display: grid;
+    grid-template-columns: 35% 35%;
+    height: 600px;
+    padding-top: 100px;
+    padding-left: 21%;
+    column-gap: 3%;
+  }
+   
+  .leftside{
+    padding-top: 60px;
+    padding-left: 150px;
+    padding-bottom: 60px;
+  }
+
+ .rightside{
+    margin-top: 80px;
+    padding-bottom: 100px;
+    padding-right: 120px;
+  }
+
+
+  .leftside h2{
+    font-family: 'ChristmasFarmhouse';
+    font-size: 60pt;
+    color: #3B4E56;
+    font-weight: lighter;
+  }
+
+  .leftside p{
+    font-family: 'SEGOEUI';
+    line-height: 20pt;
+    width: 65%;
+    color: #aca9a9;
+    margin-top: -2.5em;
+    padding-bottom: 20px;
+   font-weight: 900px;
+  }
+
+  .leftside a{
+    text-decoration-line: none;
+    font-family: 'SEGOEUI';
+    color: #F0592A;
+    text-align: center;
+    border: solid 2px #F0592A;
+    border-radius: 45px;
+    padding: 0.5em 1.6em;
+    font-weight: bold;
+  }
+
+ 
+  .community{
+    background-color: #d7eef8;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+
+ 
+  .item{
+    width: 20%;
+    margin-top: 26px;
+    font-family: 'ChristmasFarmhouse';
+  }
+ 
+  .item .num{
+    color: #F0592A;
+    font-size: 32px;
+  }
+  .item .txt{
+   color: #25AAE1;
+   font-size: 20px;
+   margin-top: -0.6em;
+   font-weight: lighter;
+  }
+
+  .invest .element{
+    background-color: white;
+    height: 160px;
+    float: left;
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(192, 191, 191, 0.2), 0 6px 20px 0 rgba(175, 174, 174, 0.19);
+    overflow: hidden;
+    
+  }
+
+  .element img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 1em;
+  }
+
+  .element p{
+    width: 50%;
+    color: #25AAE1;
+    font-family: 'SEGOEUI';
+    text-align: center;
+    margin-bottom: -8px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  .element .title{
+    font-size: 16px;
+    font-weight: bolder;
+  }
+
+  
+  @media screen and (max-width: 600px) {
+    .community{
+      flex-direction: column;
+      padding-left: 160px;
+    }
+
+    .cover{
+      flex-direction: column;
+    }
+
+    .leftside{
+      padding: 30px;
+    }
+
+   .rightside img{
+     width: 350px;
+     height: 350px;
+   }
+
+    .invest {
+      grid-template-columns: auto;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 60px;
+      padding-bottom: -60px;
+ 
+    } 
+  }
+
+  
+
+ 
+
+
+
+
+
+  

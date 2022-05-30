@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'SEGOEUI';
+    src: url('../fonts/SEGOEUI.TTF') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'ChristmasFarmhouse';
+    src: url('../fonts/ChristmasFarmhouse.ttf') format('truetype');
+  }
+
+  body, html {
+    margin: 0;
+  }
+
+  *{
+    box-sizing: border-box;
+  }
+
+  header{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    margin-top: -20px;
+  }
+
+  header .logo{
+    float: left;
+    margin-left: 5em;
+    width: 4em;
+    height: 5em;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+
+  .navbar{
+    list-style: none;
+    margin-left: 12em;
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+  }
+
+  .navbar a{
+    float: left;
+    text-decoration-line: none;
+    font-family: 'SEGOEUI';
+    color: #25AAE1;
+    padding: 0.6em 1.2em;
+    font-size: 12pt;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-left: 2em;
+  }
+ 
+  .signup{
+    border: solid 2px #25AAE1;
+    border-radius: 45px;
+  }
+
+ .navbar a:hover{
+    background-color: #cde7f1;
+    border-radius: 45px;
+  }
+
+  footer{
+    height: auto;
+    background-color: #3B4E56;
+    font-family: 'SEGOEUI';
+    padding-bottom: 50px;
+  }
+  .row{
+    display: grid;
+    grid-template-columns: 40% 15% 15% 15%;
+    padding-left: 50px;
+  }
+   
+  .col1{
+    padding-left: 250px;
+  }
+
+  #socialmedia{
+    padding-top: 1em;
+  }
+ 
+ #socialmedia ul{
+   padding-left: 0;
+ }
+ #socialmedia ul a{
+   padding-left: 8px;
+ }
+ 
+ .slag{
+ color: #efefef;
+ padding-left: 8px;
+ }
+ 
+  footer .row h5{
+   padding-left: 37px;
+   margin-bottom: -5px;
+   color: #999595;
+   font-size: 12pt;
+   font-weight: bold;
+ }
+  footer .row ul {
+   list-style: none;
+ }
+ footer .row ul a{
+   text-decoration: none;
+   color: #efefef;
+   list-style: none;
+   font-size: 8pt;
+   
+ }
+
+ @media screen and (max-width: 600px) {
+  .navbar {
+   display: none;
+  }
+  header img{
+    margin-left: 2em;
+  }
+
+  .row{
+    grid-template-columns: auto;
+  }
+
+  .col1{
+    padding-left: 5px;
+    padding-top: 50px;
+  }
+  .col2, .col3, .col4{
+    margin-left: -30px;
+  }
+
+  .col1 ul{
+    margin-left: -30px;
+  }
+  
+}

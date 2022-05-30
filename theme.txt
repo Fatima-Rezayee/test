@@ -1,0 +1,4 @@
+primary=#25AAE1
+secondary=#F0592A
+black: #3B4E56
+gray: #efefef

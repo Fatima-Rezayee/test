@@ -1,0 +1,165 @@
+
+.container{
+    width: 100%;
+    height: 800px;
+    background-color:  #efefef;
+}
+
+.topLogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+  width: 130px;
+  height: 170px;
+}
+
+.loginForm{
+    width: auto;
+    height: 550px;
+    margin-top: 20px;
+    margin-left: 36%;
+    margin-right: 36%;
+    background-color: white;
+    border: solid 2px none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(145, 145, 145, 0.2), 0 6px 20px 0 rgba(146, 146, 146, 0.19);
+    font-family: 'SEGOEUI';
+}
+
+.loginForm .bySocialAccounts{
+    height: 100px;
+    width: 100%;
+}
+
+.bySocialAccounts a{
+    border: solid 2px #dfdede;
+    border-radius: 15px;
+    background-color: #efefef;
+    margin-top: 30px;
+    margin-left: 25px;
+    width: 180px;
+    height: 45px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 8px;
+    color: #3B4E56;
+}
+.bySocialAccounts a img{
+    padding-right: 10px;
+}
+
+
+.loginForm .bySocialAccounts h6{
+    margin-top: 30px;
+    color: #8f8f8f;
+    text-align: center;
+    font-size: 10px;
+    position: relative;
+}
+.loginForm .bySocialAccounts h6::before{
+    content: "";
+    display: block;
+    width: 170px;
+    height: 2px;
+    background: linear-gradient(to right,#ffffff, #dfdfdf);
+    left: 0;
+    top: 50%;
+    position: absolute;
+}
+
+.loginForm .bySocialAccounts h6::after{
+    content: "";
+    display: block;
+    width: 170px;
+    height: 2px;
+    background: linear-gradient(to right, #dfdfdf ,#ffffff);
+    right: 0;
+    top: 50%;
+    position: absolute;
+}
+.bySiteAccount{
+    margin-top: 50px;
+    width: 100%;
+}
+
+.bySiteAccount .inputContainer{
+    margin-top: 20px;
+    width: 85%;
+    height: 45px;
+    margin-left: 7.5%;
+    background-color: #f8f8f8;
+    border-radius: 15px;
+    border: solid 1px #e6e6e6;
+}
+
+.bySiteAccount .inputContainer .icons{
+   background-color: #e4e3e3;
+   border-radius: 15px 0px 0px 15px;
+   height: 45px;
+   width: 13%;
+   padding: 14px;
+   float: left;
+}
+
+.bySiteAccount .inputContainer input{
+    border-style: none;
+    background-color: #f8f8f8;
+    width: 70%;
+    height: 43px;
+    margin-left: 5px;
+}
+.bySiteAccount .inputContainer input::placeholder{
+    color: #adadad;
+}
+.bySiteAccount .inputContainer button{
+    width: 13%;
+    height: 42px;
+    float: right;
+    border-style: none;
+    border-radius: 0px 15px 15px 0px;
+    background-color: #f8f8f8;
+}
+.bySiteAccount .inputContainer .eye{
+    width: 42px;
+    height: 40px;
+    padding: 10px;
+}
+
+.loginBtns{
+    margin-top: 50px;
+}
+
+.loginBtns button{
+    width: 85%;
+    height: 45px;
+    border-radius: 15px;
+    margin-left: 7.5%;
+    margin-top: 2px;
+}
+
+.loginBtns #login{
+    border-style: none;
+    background-color: #25AAE1;
+}
+
+.loginBtns #register{
+    border-style: none;
+    background-color: white;
+}
+
+@media screen and (max-width: 600px){
+    .loginForm {
+          margin-left: 4%;
+          margin-right: 4%;
+      }
+      .loginForm .bySocialAccounts a{
+          width: auto;
+          padding-left: 20px;
+          padding-right: 20px;
+      }
+  }
+

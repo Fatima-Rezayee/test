@@ -1,0 +1,136 @@
+.contactBg {
+    background-image: url("../images/about.png");
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .contactBg h2{
+   font-family: 'ChristmasFarmhouse';
+   font-size: 45pt;
+   color: rgb(255, 255, 255);
+   position: absolute;
+   text-align: center;
+   top: 25%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-weight: lighter;
+  }
+
+  body{
+    background-color: #efefef ;
+  }
+
+  .contactAddress{
+    display: flex;
+    flex-direction: row;
+    font-family: 'SEGOEUI';
+    justify-content: center;
+    column-gap: 200px;
+  }
+
+  .contactcontainer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .contactcontainer .contactlist{
+    margin-top: 40px;
+    margin-left: 1.8em;
+  }
+
+  .contactcontainer .contactlist img{
+    float: left;
+  }
+  .contactcontainer .contactlist p{
+    color: #3B4E56 ; 
+    margin-left: 40px;
+  }
+  .contactcontainer .socialMediaIcons ul{ 
+    list-style: none;
+    text-decoration: none;
+    margin-left: -3em;
+    margin-top: 40px;
+  }
+  .contactcontainer .socialMediaIcons ul img{
+    float: left;
+    padding-left: 10px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .contactForm {
+    width: 37%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5%;
+    height: 70%;
+    box-shadow: 0 4px 8px 0 rgba(192, 191, 191, 0.2), 0 6px 20px 0 rgba(175, 174, 174, 0.19);
+    margin-top: 100px;
+  }
+
+  .contactForm input{
+     background-color: #efefef ;
+     margin-top: 5%;
+     margin-left: 3%;
+     width: 250px;
+     height: 45px;
+     border-radius: 10px;
+     border-color: #efefef ;
+     border-style: none;
+     padding-left: 15px;
+  }
+
+  #submitButton{
+    margin-left: 5%;
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: #F0592A;
+    text-align: center;
+    padding-left: 0px;
+    margin-bottom: 10px;
+  }
+
+  #name{
+    margin-left: 4.5%;
+  }
+
+  .contactForm textarea{
+    margin-top: 1.5%;
+    transform: translate(5%,9%);
+    background-color: #efefef ;
+    border-color: #efefef ;
+    border-style: none;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
+
+  }
+
+  @media screen and (max-width: 600px) {
+    .contactAddress{
+      flex-direction: column;
+    }
+
+    .contactcontainer{
+      padding-left: 50px;
+      margin-bottom: -50px;
+    }
+    .contactForm{
+      width: 80%;
+      padding-left: 12px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 50px;
+    }
+
+    .contactForm textarea{
+      width: 19em;
+      height: 12em;
+    }
+    #submitButton{
+      margin-top: 20px;
+    }
+  }

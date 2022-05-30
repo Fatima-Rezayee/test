@@ -1,0 +1,256 @@
+.aboutBg {
+    background: url("../images/about.png");
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .aboutBg h2{
+   font-family: 'ChristmasFarmhouse';
+   font-size: 45pt;
+   color: rgb(255, 255, 255);
+   position: absolute;
+   text-align: center;
+   top: 30%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-weight: lighter;
+  }
+
+  body{
+      background-color:  #efefef;
+      height: auto;
+  }
+
+  .mission{
+    display: flex;
+    flex-direction: row;
+  }
+  .missionTxt{
+    margin-left: 8%;
+    height: 300px;
+    padding-top: 50px;
+}
+
+.title img{
+     margin-top: 150px;
+     margin-left: 80px;
+     width: 50px;
+     height: 50px;
+     float: left;
+ }
+
+ .missionTxt .title p{
+     width: 150px;
+     margin-left: 80px;
+    padding-top: 150px;
+    font-family: 'ChristmasFarmhouse';
+    color: #F0592A;
+    font-size: 40pt;
+    font-weight: bold;
+ }
+
+ .missionTxt p{
+  width: 600px;
+  margin-left: 80px;
+  margin-top: -30px;
+ font-family: 'SEGOEUI';
+ color: #25AAE1;
+ font-size: 12pt;
+text-align: justify;
+}
+.missionPic img{
+    padding-left: 100px;
+    width: 550px;
+    height:  550px;
+    margin-top: -60px;
+}
+
+  .container1 h2{
+      margin-top: 20px;
+      text-align: center;
+      font-family: 'ChristmasFarmhouse';
+      color: #F0592A;
+      font-size: 28pt;
+      font-weight: lighter;
+  }
+
+  .hr1{
+    border: solid 1px  #25AAE1;
+    width: 190px;
+    margin-top: -22px;
+    
+  }
+
+  .how {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    height: 100px;
+    padding-left: 2%;
+    padding-right: 6%;
+    padding-top: 2%;
+    column-gap: 1.2% ;
+ }
+
+  .how .items{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(192, 191, 191, 0.2), 0 6px 20px 0 rgba(175, 174, 174, 0.19);
+  }
+
+  .how .items .num{
+      width: 15%;
+      height: 50%;
+      float: left;
+      text-align: center;
+      padding: 10px;
+      font-family: 'ChristmasFarmhouse';
+      color: #F0592A;
+      font-size: 24pt;
+      background-color: #f5cdc0;
+      border: solid 1px none;
+      border-radius: 45px;
+      margin-left: 8px;
+      margin-top: 26px;
+  }
+
+  .how .items .txt{
+    font-family: 'SEGOEUI';
+    color: #25AAE1;
+    font-size: 10pt;
+    padding-left: 70px;
+    padding-top: 30px;
+    width: 100%;
+    padding-right: 5px;
+  }
+
+  .container2 h2{
+    margin-top: 140px;
+    text-align: center;
+    font-family: 'ChristmasFarmhouse';
+    color: #F0592A;
+    font-size: 28pt;
+    font-weight: lighter;
+}
+  .hr2{
+    border: solid 1px  #25AAE1;
+    width: 120px;
+    margin-top: -22px;
+    
+  }
+
+  .partners{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    padding-left: 20%;
+  }
+  .container3 h2{
+    margin-top: 55px;
+    text-align: center;
+    font-family: 'ChristmasFarmhouse';
+    color: #F0592A;
+    font-size: 28pt;
+    font-weight: lighter;
+}
+
+  .hr3{
+    border: solid 1px  #25AAE1;
+    width: 110px;
+    margin-top: 20px;
+  }
+
+  .team{
+  display: grid;
+  grid-template-columns:  20% 20% 20% 20%;
+  padding-left: 200px;
+  column-gap: 25px;
+  margin-top: 100px;
+  height: 150px;
+  margin-bottom: 30px;
+  }
+
+ .team .member{
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px 0 rgba(192, 191, 191, 0.2), 0 6px 20px 0 rgba(175, 174, 174, 0.19);
+    }
+
+    .team .member .profile{
+        margin-top: -55px;
+        margin-left: 90px;
+        border: solid 10px white;
+        background-color: white;
+        border-radius: 45px;
+    }
+
+    .team .member h3,p{
+        color: #25AAE1;
+        font-family: 'SEGOEUI';
+        padding-left: 70px;
+        margin-top: -2px;
+    }
+
+  .team .member p{
+      font-size: 8pt;
+      margin-left: 20px;
+      margin-top: -10px;
+  }
+
+  .team .member ul li{
+    list-style: none; 
+    border: solid 1px none;
+    border-radius: 45px;
+  }
+  .team .member ul li a img{
+    float: left;
+    padding-left: 3px;
+    margin-left: 18px;
+    width: 40px;
+    height: 40px;
+  }
+ 
+
+  @media screen and (max-width: 600px) {
+    .mission{
+      flex-direction: column;
+    }
+    .missionPic img{
+      width: 300px;
+      height:  300px;
+      margin-top: -20px;
+  }
+  .title img{
+    margin-left: 70px;
+  }
+  .missionTxt{
+    margin-top: -100px;
+  }
+  .missionTxt p{
+    width: 350px;
+    margin-left: -50px;
+    margin-top: -30px;
+  
+  }
+  .how{
+    grid-template-columns: auto;
+    row-gap:10px;
+  }
+  .container2 h2{
+    margin-top: 420px;
+  }
+  .partners{
+    grid-template-columns: auto;
+    row-gap:10px;
+    padding-left: 90px;
+  }
+
+  .team{
+    grid-template-columns: auto;
+    row-gap:100px;
+    height: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  }
